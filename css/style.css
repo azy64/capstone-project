@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "coco-regular";
+    src: url("../fonts/Cocogoose\ Pro-trial.ttf");
+}
+
+@font-face {
+    font-family: "coco-light";
+    src: url("../fonts/Cocogoose\ Pro\ Light-trial.ttf");
+}
+
+* {
+    font-family: coco-regular, 'Segoe UI', Tahoma, Verdana, sans-serif !important;
+}
