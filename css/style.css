@@ -66,6 +66,10 @@ html {
   color: #d3d3d3 !important;
 }
 
+.b-c {
+    border-color: #d3d3d3 !important;
+  }
+
 .box-shadow-bottom {
   box-shadow: 0 1px 12px #272a31;
 }
@@ -114,6 +118,10 @@ html {
 
   .pl {
     padding-left: 8% !important;
+  }
+
+  .p-all {
+      padding: 5% !important;
   }
 
   .grid-c {

@@ -95,7 +95,9 @@ const juryElements = () => {
 };
 const addJury = () => {
   const chaine = juryElements();
-  jury.innerHTML = chaine;
+  if (jury) {
+    jury.innerHTML = chaine;
+  }
 };
 const displayMenu = () => {
   menu.addEventListener('click', () => {
