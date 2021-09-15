@@ -3,19 +3,19 @@ const people = [
     name: 'Chris Josh',
     titre: 'It is a long established fact that a reader will be distracted by the',
     phot: './images/j1.jpg',
-    desciption: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC',
+    desciption: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from BC',
   },
   {
     name: 'Anna Becker',
     titre: 'It is a long established fact that a reader will be distracted by the',
     phot: './images/j3.jpeg',
-    desciption: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC',
+    desciption: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from BC',
   },
   {
     name: 'Charlie Toth',
     titre: 'It is a long established fact that a reader will be distracted by the',
     phot: './images/j2.png',
-    desciption: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC',
+    desciption: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from BC',
   },
   {
     name: 'Hardy Mark',
@@ -48,7 +48,7 @@ const juryElements = () => {
       ch += `
     <div class="row justify-content-center">
         <div class="col-md-4 col-sm-12 mt-5 me-md-3 me-sm-0">
-            <div class="row row-cols-md-2 row-cols-sm-2 pe-0">
+            <div class="row row-cols-md-2 pe-0 grid-2">
                 <div class="col p-0 ps-3 pt-2">
                     <img class="d-block photo-j" src="${people[i].phot}" alt="image_jury-1">
                 </div>
@@ -70,7 +70,7 @@ const juryElements = () => {
     } else {
       ch += `
         <div class="col-md-4 col-sm-12 mt-5 me-md-3 me-sm-0">
-            <div class="row row-cols-md-2 row-cols-sm-2 pe-0">
+            <div class="row row-cols-md-2 pe-0 grid-2">
                 <div class="col p-0 ps-3 pt-2">
                     <img class="d-block photo-j" src="${people[i].phot}" alt="image_jury-1">
                 </div>
@@ -116,8 +116,6 @@ const scrollOver = () => {
     if (window.innerWidth > 640 && window.pageYOffset === 0) {
       document.querySelector('header').classList.remove('sticky-top');
     }
-    console.log(window.pageYOffset);
-    console.log(window.innerWidth);
   });
 };
 addJury();
