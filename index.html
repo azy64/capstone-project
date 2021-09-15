@@ -9,55 +9,56 @@
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <title>Home page</title>
 </head>
-<body class="bg-grey-c">
+<body>
     <header>
         <nav>
-            <div class="d-none d-sm-block overflow-hidden box-shadow-bottom ">
+            <div class="d-none d-sm-block box-shadow-bottom ">
                 <div class="bg-black-c pe-md-5 ">
                     <ul class="nav justify-content-end">
                         <li class="nav-item">
-                          <a class="nav-link text-white"  href="#">Active</a>
+                          <a class="nav-link text-white"  href="#">
+                              <img src="./images/facebook.png" alt="image_facebook" width="20px"/>
+                          </a>
                         </li>
+                        <a class="nav-link text-white"  href="#">
+                            <img src="./images/twitter.png" alt="image_twitter" width="20px"/>
+                        </a>
                         <li class="nav-item">
-                          <a class="nav-link text-white" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link text-white" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link text-white">Disabled</a>
+                          <a class="nav-link text-white text-over" href="#">French</a>
                         </li>
                       </ul>
                 </div>
-                <div class="row bg-white ">
-                    <div class="col-sm-3 text-center">
-                        <a href="#">
-                            <img src="./images/logos.png" alt="image_logo" width="50"/>
-                        </a>
-                    </div>
-                    <div class="col-sm">
-                        <ul class="nav justify-content-center">
-                            <li class="nav-item">
-                              <a class="nav-link text-black-c" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link text-black-c" href="#">About Us</a>
-                            </li>
-                          </ul>
+                <div class="container-fluid">
+                    <div class="row bg-white ">
+                        <div class="col-sm-3 text-center">
+                            <a href="./index.html">
+                                <img src="./images/logos.png" alt="image_logo" width="50"/>
+                            </a>
+                        </div>
+                        <div class="col-sm">
+                            <ul class="nav justify-content-center">
+                                <li class="nav-item">
+                                  <a class="nav-link text-black-c text-over" href="./index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link text-black-c text-over" href="#">About Us</a>
+                                </li>
+                              </ul>
+                        </div>
                     </div>
                 </div>
             </div>
             <!--mobie menu-->
             <div id="mobile" class="row d-md-none d-sm-block d-lg-none bg-white">
                 <div class="col-3 p-4 pe-0">
-                    <div class="menu grid">
+                    <div class="menu grid" id="sandwich">
                         <div class="bar bg-black-c"></div>
                         <div class="bar bg-black-c"></div>
                         <div class="bar bg-black-c"></div>
                     </div>
                 </div>
                 <div class="col-9 p-2 text-center">
-                    <a href="#">
+                    <a href="./index.html">
                         <img src="./images/logos.png" alt="image_logo" width="70px"/>
                     </a>
                     
@@ -67,29 +68,189 @@
         </nav>
     </header>
     <!--body-->
-    <section class="overflow-hidden main_invite_wrap">
-        <div class="row">
-            <div class="col-sm-12 col-md-9 mt-sm-5 p-3">
-                <h3 class="fs-2 ps-sm-5 text-orange-c ">
-                    "Hello! Sharing World"
-                </h3>
-                <h1 class="display-2 ps-sm-5 text-orange-c fw-bolder text-uppercase">
-                    Election of the Best manufacturer of Men's shoes
-                </h1>
-                <p class="text-black-c p-sm-0 p-md-3 ms-md-5 m-sm-auto bg-grey-c border border-4 border-white col-md-6 col-sm text-start">
-                    Lorem Ipsum is simply dummy text of the printing 
-                    and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-                </p>
-                <div class="ps-sm-5" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;">
-                    <h3 class="display-5 mt-sm-4 fw-bolder text-black-c fm-normal fst-normal">
-                        2021.11.15 (MONDAY)</h3>
-                    <p class="text-capitalize text-black-c" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;">
-                        @ france national park 134 rue des murlins 4500 orléans
+    <section class="container-fluid main_invite_wrap">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-9 mt-sm-5 p-3">
+                    <h3 class="fs-2 ps-sm-5 text-orange-c ">
+                        "Hello! Sharing World"
+                    </h3>
+                    <h1 class="display-2 ps-sm-5 text-orange-c fw-bolder text-uppercase">
+                        Election of the Best manufacturer of Men's shoes
+                    </h1>
+                    <p class="text-black-c p-sm-0 p-md-3 ms-md-5 m-sm-auto bg-grey-c border border-4 border-white col-md-6 col-sm text-start">
+                        Lorem Ipsum is simply dummy text of the printing 
+                        and typesetting industry. Lorem Ipsum has been the industry's standard dummy
                     </p>
+                    <div class="ps-sm-5 pt-sm-5 pt-md-3" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;">
+                        <h3 class="display-5 mt-sm-4 fw-bolder text-black-c fm-normal fst-normal">
+                            2021.11.15 (MONDAY)</h3>
+                        <p class="text-capitalize text-black-c" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;">
+                            @ france national park 134 rue des murlins 4500 orléans
+                        </p>
+                    </div>
+                    
                 </div>
-                
             </div>
         </div>
     </section>
+    <section class=" container-fluid main_program">
+        <div class="row">
+            <div class="col text-center pb-4 pt-5">
+                <h2 class="text-white">Main Activities</h2>
+                <div class="under-red bg-orange-c m-auto"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="row justify-content-center justify-content-sm-center pl pt-5">
+                <div class="col-md-2 mb-2 text-center grid-c main-act">
+                    <div class="col">
+                        <img class="m-sm-3 pt-2 pb-2" src="./images/telescope-1.png" alt="image_telecope" width="60px"/>
+                    </div>
+                    <div class="col">
+                        <h5 class="text-orange-c">Exposure</h5>
+                    </div>
+                    <div class="col">
+                        <p class="small text-white">
+                           <small>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                              Lorem Ipsum has been 
+                           </small> 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 text-center mb-2 grid-c main-act ms-md-1 me-md-1">
+                    <div class="col">
+                        <img class="m-sm-3 pt-2 pb-2" src="./images/archive.png" alt="image_telecope" width="60px"/>
+                    </div>
+                    <div class="col">
+                        <h5 class="text-orange-c">Vote</h5>
+                    </div>
+                    <div class="col">
+                        <p class="small text-white">
+                           <small>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                              Lorem Ipsum has been 
+                           </small> 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 text-center grid-c main-act">
+                    <div class="col pt-2 pb-2">
+                        <img class="m-sm-3" src="./images/buffet.png" alt="image_telecope" width="60px"/>
+                    </div>
+                    <div class="col">
+                        <h5 class="text-orange-c">Buffet</h5>
+                    </div>
+                    <div class="col">
+                        <p class="small text-white">
+                           <small>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                              Lorem Ipsum has been 
+                           </small> 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-sm-9 pt-5 pb-5">
+                    <a href="#" class="m-auto btn d-block w-75 btn-lg p-2 bg-orange-c text-white" role="button" data-bs-toggle="button">JOIN EBMM</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--jury-->
+    <section class="container-fluid bg-white">
+        <div class="row">
+            <div class="col text-center pb-4 pt-5">
+                <h2 class="text-white text-black-c">The Jury</h2>
+                <div class="under-red bg-orange-c m-auto"></div>
+            </div>
+        </div>
+        <div class="jury">
+
+        </div>
+        
+    </section>
+    <footer class="bg-dark-c">
+        <section id="partner" class="bg-white pt-5 mb-5">
+            <div class="row mb-5">
+                <div class="col text-center pb-4 pt-5">
+                    <h2 class="text-white text-black-c">Partners</h2>
+                    <div class="under-red bg-orange-c m-auto"></div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col text-center">
+                    <a href="#">
+                        <img src="./images/fjp.jpg"  width="200px" alt="image_partner"/>
+                    </a>
+                </div>
+                <div class="col text-center">
+                    <a href="#">
+                        <img src="./images/DITRAS.png"  width="200px" alt="image_partner"/>
+                    </a>
+                </div>
+                <div class="col text-center">
+                    <a href="#">
+                        <img src="./images/GAS.png" width="200px" alt="image_partner"/>
+                    </a>
+                </div>
+                <div class="col text-center">
+                    <a href="google.com">
+                        <img src="./images/google.png" width="200px" height="160px" alt="image_partner"/>
+                    </a>
+                    
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row p-4">
+                    <div class="col-md-3 mb-5 text-center">
+                        <a href=".">
+                            <img src="./images/_logo1.jpg" width="150px">
+                        </a>
+                    </div>
+                    <div class="col-md">
+                        <h5 class="text-white text-md fw-bolder" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                            2021 ELECTION OF THE BEST MANUFACTURER OF MEN'S SHOES.
+                            <a class="text-white text-decoration-none" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" href="http://copyright.be" target="_blank">
+                                Copyright © 2021 TUNAWEZA - Tous droits réservés
+                            </a>
+                        </h5>
+                        <p class="text-small text-white">
+                            The competition to reward the best shoe for man was created by 
+                            Mr Azaria SAIDI ALLY thanks to the donations of the generous anonymous 
+                            people dissipated in the world
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!--here start the code for the mobile menu-->
+    <section class="fenetre invisible container-fluid position-fixed w-100 bg-black-o h-100">
+        <div class="row">
+            <div class="col p-3">
+                <img src="./images/close.png" alt="image_close" id="close" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <ul class="list-unstyled">
+                    <li class="mt-5 mb-3">
+                        <a class="display-5 text-decoration-none text-white" href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="display-5 text-decoration-none text-white" href="#">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="./js/index.js"></script>
 </body>
 </html>

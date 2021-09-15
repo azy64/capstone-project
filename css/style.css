@@ -12,6 +12,11 @@
     font-family: coco-light;
 }
 
+html {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
 .fm-coco-light {
     font-family: coco-light !important;
 }
@@ -26,6 +31,19 @@
 
 .bg-black-c {
     background-color: #272a31 !important;
+}
+
+.bg-black-o {
+    background-color: rgba(12,40,70,.8) !important;
+}
+
+.fenetre{
+    left: 0;
+    top: 0;
+}
+
+.bg-dark-c {
+    background-color: #2e2e2e !important;
 }
 
 .text-black-c {
@@ -71,16 +89,75 @@
     height: 7px;
 }
 
+.main_program {
+    background-image: url(../images/pattern_bg.png);
+    background-repeat: repeat;
+    background-color: #272a32;
+    min-height: 637px;
+}
+
+.text-over:hover{
+    color: #ec5242 !important;
+}
+
 @media screen and (max-width: 640px){
     .main_invite_wrap {
         background: url(../images/mobile_intro_bg.png) center top no-repeat;
         height: auto;
     }
+
+    .pl {
+        padding-left: 8% !important;
+    }
+
+    .grid-c {
+        display: grid !important;
+        grid-template-columns: 3 !important;
+    }
+
+    .photo-j {
+        width: 80% !important;
+    }
 }
 
 .main_invite_wrap {
-    height: 855px;
+    min-height: 655px;
     background-image: url(../images/main_big.png);
     background-repeat: repeat-x;
     background-position: center center;
 }
+
+.under-red {
+    width: 80px;
+    height: 2px;
+}
+
+.main-act {
+    background-color: rgba(255, 255, 255, .1);
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+.main-act:hover {
+    border: 2px solid white;
+}
+
+.text-small {
+    font-size: 11px !important;
+}
+
+.text-md {
+    font-size: 13px !important;
+}
+
+.small-bar {
+    width: 10% !important;
+    height: 3px;
+}
+
+.photo-j {
+    width: 200px !important;
+    height: 140px;
+}
+/**
+** exposure vote  buffet
+*/
