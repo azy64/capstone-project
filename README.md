@@ -15,7 +15,7 @@ This project is one of the projects from my Microverse portfolio that aims to sh
 
 ## Live Demo
 
-[Live Demo Link](https://azy64.github.io/Portfolio/)
+[Live Demo Link](https://azy64.github.io/capstone-project/)
 
 ## Authors
 
