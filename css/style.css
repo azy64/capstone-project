@@ -71,6 +71,10 @@ html {
   border-color: #d3d3d3 !important;
 }
 
+.border-o {
+  border-color: #ec5242 !important;
+}
+
 .box-shadow-bottom {
   box-shadow: 0 1px 12px #272a31;
 }
@@ -114,6 +118,10 @@ html {
   .main_invite_wrap {
     background: url(../images/mobile_intro_bg.png) center top no-repeat;
     height: auto;
+  }
+
+  .image_partner {
+    width: 190px !important;
   }
 
   .photo {
@@ -211,7 +219,11 @@ html {
 }
 
 .photo {
-  width: 360px;
+  width: 150px;
+}
+
+.image_partner {
+  width: 150px;
 }
 
 /**
