@@ -9,7 +9,7 @@
 }
 
 * {
-  font-family: "coco-light", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: coco-light, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
 html {
@@ -27,7 +27,7 @@ html {
 }
 
 .fm-normal {
-  font-family: system-ui-apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
 .bg-black-c {
