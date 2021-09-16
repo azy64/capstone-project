@@ -9,7 +9,7 @@
 }
 
 * {
-  font-family: "coco-light";
+  font-family: "coco-light", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 html {
@@ -18,11 +18,11 @@ html {
 }
 
 .fm-coco-light {
-  font-family: coco-light !important;
+  font-family: coco-light, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
 .fm-coco-regular {
-  font-family: coco-regular !important;
+  font-family: coco-regular, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
 .fm-normal {
@@ -67,8 +67,8 @@ html {
 }
 
 .b-c {
-    border-color: #d3d3d3 !important;
-  }
+  border-color: #d3d3d3 !important;
+}
 
 .box-shadow-bottom {
   box-shadow: 0 1px 12px #272a31;
@@ -106,9 +106,8 @@ html {
 }
 
 .text-active {
-    color: #ec5242 !important;
-  }
-  
+  color: #ec5242 !important;
+}
 
 @media screen and (max-width: 640px) {
   .main_invite_wrap {
@@ -116,17 +115,23 @@ html {
     height: auto;
   }
 
+  .photo {
+    width: 250px !important;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
   .pl {
     padding-left: 8% !important;
   }
 
   .p-all {
-      padding: 5% !important;
+    padding: 5% !important;
   }
 
   .grid-c {
     display: grid !important;
-    grid-template-columns:  20% auto 50% !important;
+    grid-template-columns: 20% auto 50% !important;
   }
 
   .photo-j {
@@ -140,19 +145,20 @@ html {
     grid-template-columns: 25% 75% !important;
     width: 93% !important;
   }
-  
+
   .mt-small {
-      margin-top: 50% !important;
+    margin-top: 50% !important;
   }
 
   .pt-small {
-      padding-top: 50% !important;
+    padding-top: 50% !important;
   }
 
   .icon {
-      width: 90% !important;
-      margin-top: 25%;
+    width: 90% !important;
+    margin-top: 25%;
   }
+
   .text-icon {
     font-size: 16px !important;
   }
@@ -195,12 +201,16 @@ html {
 
 .photo-j {
   width: 100%;
-  height: 80%;
+  height: 95%;
   display: block;
 }
 
 .icon {
-    width: 60px;
+  width: 60px;
+}
+
+.photo {
+  width: 360px;
 }
 
 /**

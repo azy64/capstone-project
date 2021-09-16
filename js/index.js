@@ -2,13 +2,13 @@ const people = [
   {
     name: 'Chris Josh',
     titre: 'It is a long established fact that a reader will be distracted by the',
-    phot: './images/j1.jpg',
+    phot: './images/j1.png',
     desciption: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from BC',
   },
   {
     name: 'Anna Becker',
     titre: 'It is a long established fact that a reader will be distracted by the',
-    phot: './images/j3.jpeg',
+    phot: './images/j3.png',
     desciption: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from BC',
   },
   {
@@ -20,19 +20,19 @@ const people = [
   {
     name: 'Hardy Mark',
     titre: 'It is a long established fact that a reader will be distracted by the',
-    phot: './images/j4.jpeg',
+    phot: './images/j4.png',
     desciption: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical BC',
   },
   {
     name: 'Josh Mayer',
     titre: 'It is a long established fact that a reader will be distracted by the',
-    phot: './images/j5.jpeg',
+    phot: './images/j5.png',
     desciption: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical BC',
   },
   {
     name: 'Andrew Matthiew',
     titre: 'It is a long established fact that a reader will be distracted by the',
-    phot: './images/j6.jpg',
+    phot: './images/j6.png',
     desciption: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical BC',
   },
 ];
