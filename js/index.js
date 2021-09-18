@@ -101,12 +101,12 @@ const addJury = () => {
 };
 const displayMenu = () => {
   menu.addEventListener('click', () => {
-    document.querySelector('.fenetre').classList.remove('invisible');
+    document.querySelector('.fenetre').classList.add('show');
   });
 };
 const hideMenu = () => {
   crossElement.addEventListener('click', () => {
-    document.querySelector('.fenetre').classList.add('invisible');
+    document.querySelector('.fenetre').classList.remove('show');
   });
 };
 
